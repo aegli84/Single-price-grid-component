@@ -1,0 +1,100 @@
+body {
+    background-image: url(./assets/Scattered-Forcefields\ \(2\).svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Karla', sans-serif;
+    margin: auto;
+    width: 100vw;
+}
+
+main > section {
+    margin-left: 50vh;
+    
+}
+
+section > div {
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+h2 {
+    color: hsl(71, 73%, 54%);
+}
+
+h3, p {
+    color: hsl(202, 8%, 81%);
+}
+
+section:nth-of-type(2) > div > h2 , section:nth-of-type(3) > div > h2  {
+    color: hsl(200, 17%, 93%);
+}
+
+
+.containerone {
+    background-color: white;
+    width: 800px;
+    height: 290px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 150px;
+    padding-top: 40px;
+}
+
+.containertwo {
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 5px;
+    
+}
+
+.containertwo > p {
+    color: hsl(200, 17%, 93%);
+}
+
+.btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: hsl(200, 17%, 93%);
+    border-radius: 5px;
+    display: inline-block;
+    background-color: hsl(71, 73%, 54%);
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: hsl(179, 64%, 24%);
+    cursor: default;
+}
+
+.containerthree {
+    background-color: hsl(179, 41%, 59%);
+    border-bottom-right-radius: 5px;
+    
+}
+
+.containertwo,.containerthree {
+    width: 400px;
+    height: 290px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }

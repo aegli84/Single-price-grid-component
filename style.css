@@ -4,90 +4,119 @@ body {
     background-image: url(./assets/Scattered-Forcefields\ \(2\).svg);
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Karla', sans-serif;
-    
-    
+    font-family: 'Karla', Helvetica , monospace;
 }
-
-
-.containergrid { 
-    display: inline-block;
-    margin-left: 35vh;
-    margin-right: 35vh;
-    box-shadow: 0 0 10px 20px rgba(0,0,0,0.19);
-}
-
-.itemone {
-    background-color: white;
-    width: 800px;
-    height: 290px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    margin-top: 150px;
-    padding-top: 40px;
-    padding-top: 50px;
-    padding-left: 40px;
-}
-
-.itemtwo {
-    background-color: hsl(179, 62%, 43%);
-    border-bottom-left-radius: 6px;
-
-}
-
-.itemthree {
-    background-color: hsl(179, 41%, 59%);
-    border-bottom-right-radius: 6px;
-    float: right;
-}
-
-.itemtwo , .itemthree {
-    padding-top: 30px;
-    padding-left: 40px;
-    width: 380px;
-    
-}
-
-
-main > div > div:nth-of-type(2) > h2 {
-    color:  hsl(200, 17%, 93%);
-}
-main > div > div:nth-of-type(3) > h2 {
-    color:  hsl(200, 17%, 93%);
-    grid-column: 1 / -1; 
-}
-
-
 
 h1 {
     color: hsl(179, 62%, 43%);
+    
 }
 
 h2 {
     color: hsl(71, 73%, 54%);
 }
 
-h3, p {
-    color: hsl(202, 8%, 81%);
+.containergrid { 
+    height: 45vh;
+    padding-top: 4rem;
+    padding-bottom: 10rem;
 }
 
+.containergrid section {
+    margin: 0 auto;  
+    display: grid;  
+    column-gap: 0;
+    width: 55vw;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19) ;
+}
+
+.containergrid section .itemone {
+    grid-column: 1 / -1; 
+}
+
+.itemone {
+    background-color: white;
+    width: 800px;
+    height: 250px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding-top: 30px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.itemone > h1 {
+    font-size: 27px;
+}
+
+.itemone > p {
+    color: hsl(0, 0%, 75%);
+    font-weight: 600;
+    font-size: large;
+}
+
+.itemtwo {
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 6px;
+}
+
+.itemtwo > h2 {
+    color: hsl(200, 17%, 93%);
+}
+.itemtwo > div {
+    color: hsl(200, 17%, 93%);
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.itemtwo > div > sup {
+    color: hsla(200, 17%, 93%, 0.589);
+    font-size: 20px
+}
+.itemtwo > p {
+    color: hsl(200, 17%, 93%);
+}
+
+.itemtwo > div:nth-of-type(2) > p {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.itemthree {
+    background-color: hsl(179, 41%, 59%);
+    border-bottom-right-radius: 6px;
+}
+
+.itemthree > h2 {
+    color: hsl(200, 17%, 93%);
+}
+.itemthree > p {
+    color: hsla(200, 17%, 93%, 0.884);
+    font-family: 'Karla';
+    margin: 7px;
+}
+
+.itemtwo , .itemthree {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    width: 380px;
+}
 
 .btn {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 10px;
     color: hsl(200, 17%, 93%);
-    font-weight: bolder;
     text-align: center;
     border-radius: 5px;
     background-color: hsl(71, 73%, 54%);
-    padding: 20px;
-    width: 20em;
+    padding: 5px;
+    width: 10em;
     box-shadow: 0 0 15px 1px hsl(180, 1%, 44%);
 }
 
 .btn:hover {
-    background-color: hsl(179, 66%, 28%);
+    background-color: hsl(179, 94%, 34%);
     cursor: default;
 }
 

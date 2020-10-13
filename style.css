@@ -26,9 +26,9 @@ h2 {
     margin: 0 auto;  
     display: grid;  
     column-gap: 0;
-    width: 55vw;
+    width: 57vw;
     grid-template-columns: repeat(2, 1fr);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19) ;
+    box-shadow: 0 0 15px 1px rgba(0,0,0,0.19) ;
 }
 
 .containergrid section .itemone {
